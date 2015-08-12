@@ -26,7 +26,7 @@ import com.mysql.jdbc.Statement;
 		             while( rs.next()){
 		             String name=rs.getString("first_name");
 		             String lname=rs.getString("last_name");             
-		             System.out.println(name+lname+"租用的film->");
+		             System.out.println(name+"."+lname+"租用的film->");
 		             }
 		             System.out.println("film ID|file 名称|租用时间");
 //   	                 sql="SELECT rental_id FROM `rental` where customer_id=571;";
