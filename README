@@ -1,1 +1,3 @@
-程序位置 com.hand.Exam0812_2.Exam2
+mvn clean
+mvn compile 
+mvn mvn exec:java -Dexec.mainClass="com.hand.Exam0812_2.Exam2"
